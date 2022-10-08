@@ -1,0 +1,36 @@
+.image-input{
+    width: 50%;
+    margin: 0 auto;
+}
+.dropzone{
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+    border: 2px dashed #225588;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #151515;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropzone-active{
+    border: 2px solid #003366;
+}
+.btn{
+    cursor: pointer;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 5px;
+    color: #fff;
+    background-color: #003366;
+    padding: 10px 0px;
+    transition: background-color 0.5s ease;
+}
+.btn:hover{
+    background-color: #225588;
+}
